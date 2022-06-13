@@ -1,43 +1,53 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, b, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+*{
+margin: 0;
+padding: 0;
 }
 
-
-#menu{
+#menu {
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: auto;
     background-color: #242423;
-    background-
 }
 
-#style-nav{
+#style-nav {
     font-family: 'Courier New', Courier, monospace;
-}    
-.menu-nav{
-text-align: center;
-line-height: 49px;
+}
+
+.menu-nav {
+    text-align: center;
+    line-height: 50px;
 
 }
-.menu-nav li{
-    display: inline-block; 
-    padding-left: 2rem;     
+
+.menu-nav li {
+    display: inline-block;
+    padding-left: 2rem;
 }
-a.nav-acess{
-text-decoration: none;
+
+a.nav-acess {
+    text-decoration: none;
+    color: white;
+}
+
+
+.banner{
+background-image: url(/img/banner.jpg);
+height: auto;
+background-size: cover;
+padding: 300px 0 700px 0;
+
+}
+.banner h2{
+font-family: 'Josefin Sans','Joan';
+font-size: 3.2rem;
+font-weight: 200;
 color: white;
+margin-left: 50%;
+margin-top: 3%;
+}
+
+
+.cardapio{
+width: 200px;
 }
