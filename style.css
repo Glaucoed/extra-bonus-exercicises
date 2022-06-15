@@ -101,7 +101,7 @@ img.img-pres {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     padding: 10px;
-    background-color: rgb(138, 137, 135);
+    background-color: rgb(172, 170, 165);
     text-decoration: none;
 
 }
@@ -109,7 +109,7 @@ img.img-pres {
 /* ========== cardapio  ===========*/
 
 #content-pratos {
-    background-color: #bbbbb7;
+    background-color: #d4d4d1;
 }
 
 #pratos {
@@ -117,7 +117,7 @@ img.img-pres {
 }
 
 .article-pratos {
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     margin: 2% 2%;
     padding-left: 15px;
     width: 300px;
@@ -134,4 +134,32 @@ img.img-pres {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+/* ========== depoimento  ===========*/
+
+.depoiment{
+    margin: 0 20%;
+    padding-left: 4%
+    
+}
+
+.depoiment-client{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+width: 300px;
+height: 200px;
+vertical-align: top;
+display: inline-block;
+padding: 6px;
+margin: 6px;
+box-shadow: 2px 2px 2px 2px #b6b4b4;
+}
+
+.dep-cli-name{
+text-align: center;
+}
+
+.dep-cli-text{
+    font-style: italic;
+    text-align: justify;
+    line-height: 2rem;
 }
