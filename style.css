@@ -117,7 +117,7 @@ img.img-pres {
 }
 
 .article-pratos {
-    
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     margin: 2% 2%;
     padding-left: 15px;
@@ -136,37 +136,103 @@ img.img-pres {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.pratos-text{
-padding: 5px 0px;
+
+.pratos-text {
+    padding: 5px 0px;
 }
 
 /* ========== depoimento  ===========*/
 
-.depoiment{
+.depoiment {
     margin: 0 20%;
     padding-left: 4%
-    
 }
 
-.depoiment-client{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-width: 300px;
-height: 200px;
-vertical-align: top;
-display: inline-block;
-padding: 8px;
-margin: 6px;
-box-shadow: 2px 2px 2px 2px #b6b4b4;
+.depoiment-client {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    width: 300px;
+    height: 200px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 8px;
+    margin: 6px;
+    box-shadow: 2px 2px 2px 2px #b6b4b4;
 }
 
-.dep-cli-name{
-text-align: center;
-margin-bottom: 1.5rem;
+.dep-cli-name {
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
-.dep-cli-text{
+.dep-cli-text {
     padding: 0 15px;
     font-style: italic;
     text-align: justify;
     line-height: 1.3rem;
+}
+
+/* ========== reserva e maps ===========*/
+
+#maps-res {
+    margin-top: 50px;
+
+}
+
+
+.img-reserva {
+    background-image: url(https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.maps-reserva {
+    display: inline-block;
+}
+
+.fundo {
+
+    background-color: #0f0f0f;
+    opacity: 0.9;
+    margin: 150px 190px;
+    border-radius: 20px;
+}
+
+.title-reserva {
+    font-family: 'Josefin Sans', 'Joan';
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.text-res {
+    font-family: 'Josefin Sans', 'Joan';
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+
+a.lk-res:hover,
+a.lk-res:active {
+    text-decoration: underline;
+}
+
+.lk-res {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 2rem;
+    color: white;
+    margin-left: 28%;
+}
+
+#article-res {
+
+    padding: 50px 0;
+
 }
