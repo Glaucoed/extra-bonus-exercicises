@@ -8,7 +8,7 @@
     position: fixed;
     width: 100%;
     height: auto;
-    background-color: #242423;
+    background-color: #0f0f0f;
 }
 
 #style-nav {
@@ -98,10 +98,10 @@ img.img-pres {
 }
 
 .conheca-chefs {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     padding: 10px;
-    background-color: rgb(172, 170, 165);
+    background-color: rgba(136, 7, 7, 0.829);
     text-decoration: none;
 
 }
@@ -117,6 +117,7 @@ img.img-pres {
 }
 
 .article-pratos {
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     margin: 2% 2%;
     padding-left: 15px;
@@ -135,6 +136,10 @@ img.img-pres {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+.pratos-text{
+padding: 5px 0px;
+}
+
 /* ========== depoimento  ===========*/
 
 .depoiment{
@@ -149,17 +154,19 @@ width: 300px;
 height: 200px;
 vertical-align: top;
 display: inline-block;
-padding: 6px;
+padding: 8px;
 margin: 6px;
 box-shadow: 2px 2px 2px 2px #b6b4b4;
 }
 
 .dep-cli-name{
 text-align: center;
+margin-bottom: 1.5rem;
 }
 
 .dep-cli-text{
+    padding: 0 15px;
     font-style: italic;
     text-align: justify;
-    line-height: 2rem;
+    line-height: 1.3rem;
 }
