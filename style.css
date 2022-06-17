@@ -238,41 +238,45 @@ a.lk-res:active {
 
 /* ============= footer ================= */
 
-#footer{
+#footer {
     background-color: #0f0f0f;
     color: #BABFC4;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     padding: 0 15%
 }
 
-#footer-section{
+.footer-section {
     display: inline-block;
     vertical-align: top;
     padding: 80px;
 }
 
-.text li{
+.ft-conteudo li {
     list-style-type: none;
 
 }
-.ft{
+
+.ft {
     color: #838C95;
     text-decoration: none;
 }
-a.ft:hover{
-color: #cfd4d8;
-}
-.ft-title{
-font-size: 1rem;
-text-transform: uppercase;
-padding-bottom: 20px;
+
+a.ft:hover {
+    color: #cfd4d8;
 }
 
-.ft-uni{
-color: #838C95;
-max-width: 300px;}
+.ft-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
 
-.ft-uni-ph{
-margin-top: 15px;
+.ft-uni {
+    color: #838C95;
+    max-width: 300px;
+}
+
+.ft-uni-ph {
+    margin-top: 15px;
 
 }
