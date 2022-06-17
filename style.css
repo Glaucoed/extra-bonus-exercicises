@@ -182,7 +182,7 @@ img.img-pres {
 .img-reserva {
     background-image: url(https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
-    width: 1000px;
+    width: 900px;
     height: 750px;
     display: inline-block;
     vertical-align: top;
@@ -233,5 +233,46 @@ a.lk-res:active {
 
 .article-res {
     padding: 50px 0;
+
+}
+
+/* ============= footer ================= */
+
+#footer{
+    background-color: #0f0f0f;
+    color: #BABFC4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    padding: 0 15%
+}
+
+#footer-section{
+    display: inline-block;
+    vertical-align: top;
+    padding: 80px;
+}
+
+.text li{
+    list-style-type: none;
+
+}
+.ft{
+    color: #838C95;
+    text-decoration: none;
+}
+a.ft:hover{
+color: #cfd4d8;
+}
+.ft-title{
+font-size: 1rem;
+text-transform: uppercase;
+padding-bottom: 20px;
+}
+
+.ft-uni{
+color: #838C95;
+max-width: 300px;}
+
+.ft-uni-ph{
+margin-top: 15px;
 
 }
