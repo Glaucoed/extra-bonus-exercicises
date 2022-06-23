@@ -33,7 +33,7 @@ a.nav-acess {
 
 /* ========== banner  ===========*/
 .banner {
-    background-image: url(img/banner.jpg);
+    background-image: url(/img/banner.jpg);
     height: auto;
     background-size: cover;
     padding: 300px 0 700px 0;
